@@ -1,0 +1,315 @@
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6,p,ul,li,a{margin:0; padding:0;}
+
+body
+{
+float:left;
+background:url('images/back.png');
+background-repeat:repeat-x;
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+background-color:#87F1FF;
+}
+#wrapper
+{
+width:1024px;
+margin:auto;
+padding:auto;
+}
+#header
+{
+float:left;
+width:1024px;
+height:100px;
+}
+#header #logo
+{
+float:left;
+width:250px;
+}
+#header #student_id
+{
+float:left;
+width:774px;
+}
+#header #student_id h1
+{
+float:left;
+width:700px;
+text-align:right;
+padding:10px;
+font-size:28px;
+color:yellow;
+}
+#header #student_id h1 span
+{
+color:#91F69A;
+}
+#header #navigation
+{
+float:left;
+width:774px;
+}
+#header #navigation ul
+{
+float:left;
+list-style-type:none;
+margin-left:10px;
+}
+#header #navigation ul li
+{
+float:left;
+}
+#header #navigation ul li a
+{
+float:left;
+padding:11px;
+padding-top:10;
+color:white;
+text-decoration:none;
+letter-spacing:2px;
+font-size:30px;
+}
+#header #navigation ul li a:hover
+{
+color:#91F69A;
+}
+#page
+{
+float:left;
+width:1024px;
+}
+#page #page_top
+{
+float:left;
+width:1024px;
+height:10px;
+background-image:url('images/page_top.png');
+background-repeat:no-repeat;
+}
+#page #page_mid
+{
+float:left;
+width:1024px;
+background-image:url('images/page_mid.png');
+background-repeat:repeat-y;
+}
+#page #page_mid #left
+{
+float:left;
+width:430px;
+}
+#page #page_mid #left img
+{
+float:left;
+margin-left:10px;
+}
+#page #page_mid #right
+{
+float:left;
+width:560px;
+text-align:center;
+text-transform:uppercase;
+padding:10px;
+}
+#page #page_mid #right h2
+{
+float:left;
+width:100%;
+margin-top:20px;
+margin-bottom:50px;
+}
+#page #page_mid #right h1
+{
+float:left;
+width:100%;
+font-size:70px;
+}
+#page #page_mid #right h3
+{
+float:left;
+width:100%;
+margin-top:30px;
+}
+#page #page_mid #right h4
+{
+float:left;
+width:100%;
+margin-top:10px;
+margin-bottom:20px;
+}
+#page #page_mid #right h5
+{
+float:left;
+width:100%;
+letter-spacing:10px;
+color:white;
+margin-top:20px;
+font-size:18px;
+background-color:black;
+}
+#page #about
+{
+float:left;
+text-align:left;
+padding-left:10px;
+}
+#page #about #photos
+{
+float:left;
+width:550px;
+}
+#page #about #photos img
+{
+float:left;
+margin-left:10px;
+}
+#page #about #photos img.log
+{
+float:left;
+margin-top:70px;
+margin-left:100px;
+}
+#page #about h2
+{
+float:left;
+font-size:20px;
+}
+#page #about ul
+{
+float:left;
+list-style-type:none;
+line-height:30px;
+margin-bottom:5px;
+margin-left:10px;
+color:black;
+font-weight:bold;
+}
+#page #about a
+{
+float:left;
+width:500px;
+text-align:right;
+font-size:20px;
+color:black;
+}
+#page #page_bot
+{
+float:left;
+width:1024px;
+height:10px;
+background-image:url('images/page_bot.png');
+background-repeat:no-repeat;
+}
+
+
+#page #service
+{
+float:left;
+text-align:center;
+}
+#page #service ul
+{
+float:left;
+list-style-type:none;
+line-height:40px;
+font-weight:bold;
+font-size:20px;
+margin-top:150px;
+}
+#page #service #serviceimg
+{
+float:left;
+margin-top:100px;
+margin-left:300px;
+}
+
+
+#page #contact
+{
+float:left;
+text-align:left;
+}
+#page #contact ul
+{
+float:left;
+list-style-type:none;
+line-height:40px;
+font-weight:bold;
+font-size:20px;
+margin-top:100px;
+margin-left:80px;
+}
+#page #contact #contactimg
+{
+float:left;
+margin-top:70px;
+margin-left:250px;
+}
+
+
+#page #project
+{
+float:left;
+text-align:center;
+}
+#page #project ul
+{
+float:left;
+list-style-type:none;
+line-height:40px;
+font-weight:bold;
+font-size:20px;
+margin-top:150px;
+}
+#page #project #projectimg
+{
+float:left;
+margin-top:70px;
+margin-left:300px;
+}
+
+
+
+
+#footer
+{
+float:left;
+width:1024px;
+}
+#footer_left
+{
+float:left;
+}
+#footer #foot_nav
+{
+float:left;
+width:800px;
+}
+#footer #foot_nav ul
+{
+float:left;
+list-style-type:none;
+margin-left:10px;
+}
+#footer #foot_nav ul li
+{
+float:left;
+}
+#footer #foot_nav ul li a
+{
+float:left;
+padding:11px;
+padding-top:10;
+color:black;
+text-decoration:none;
+letter-spacing:2px;
+font-size:20px;
+}
+#footer #foot_nav ul li a:hover
+{
+color:white;
+}
